@@ -1,0 +1,24 @@
+{
+  "name": "ata-utls",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --dist-dir dist --public-url ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@8.6.8+sha1.8cdbb177109be4e1c498126fa24a9dc811e80eea",
+  "dependencies": {
+    "@solana-program/token": "^0.7.0",
+    "@solana-program/token-2022": "^0.6.0",
+    "@solana/kit": "^4.0.0",
+    "@solana/spl-token": "^0.4.14"
+  }
+}
