@@ -5,9 +5,9 @@
   "source": "src/index.html",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --dist-dir dist --public-url ./",
+    "build": "parcel build src/index.html --dist-dir dist --public-url \"${PUBLIC_URL:-/ata-utils/}\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "clean": "rm -rf dist"
   },
